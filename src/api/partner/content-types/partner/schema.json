@@ -4,7 +4,8 @@
   "info": {
     "singularName": "partner",
     "pluralName": "partners",
-    "displayName": "partner"
+    "displayName": "partner",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,21 @@
   "pluginOptions": {},
   "attributes": {
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
