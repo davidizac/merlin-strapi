@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "how_tos",
+  "info": {
+    "singularName": "how-to",
+    "pluralName": "how-tos",
+    "displayName": "How to"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients_askeds",
+  "info": {
+    "singularName": "clients-asked",
+    "pluralName": "clients-askeds",
+    "displayName": "Clients Asked"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Answer": {
+      "type": "richtext"
+    }
+  }
+}
